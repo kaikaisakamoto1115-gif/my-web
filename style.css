@@ -1,11 +1,29 @@
 body {
-  padding-top: 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-.hero {
-  height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-              url('nyc.jpg');
-  background-size: cover;
-  background-position: center;
+/* Navbar */
+.navbar-brand {
+  font-size: 0.95rem;
+}
+
+/* Carousel */
+#mainCarousel .carousel-item img {
+  max-height: 550px;
+  object-fit: cover;
+}
+
+/* Sections */
+section h1 {
+  font-weight: 700;
+}
+
+.gallery-img {
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer small {
+  font-size: 0.9rem;
 }
