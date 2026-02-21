@@ -1,1 +1,19 @@
+body {
+  padding-top: 70px;
+}
 
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
