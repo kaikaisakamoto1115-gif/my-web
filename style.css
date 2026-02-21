@@ -2,7 +2,7 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-/* Fix top spacing because of fixed navbar */
+/* Fix spacing for fixed navbar */
 #home,
 #mainCarousel {
   margin-top: 56px;
